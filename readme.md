@@ -6,7 +6,7 @@
 - **Key features**: Name, price, rating, specifications (RAM, storage, battery, display)
 - **Data types**: Mixed numerical, categorical, and text data
 
-## Data Cleaning Steps
+## Data Cleaning Process Applied
 
 ### 1. Missing Values
 - **FM radio (71% missing)** and **external memory (34% missing)** - retained as non-critical
@@ -34,7 +34,7 @@ Extracted numerical features from text using regex:
 - **Average rating**: 4.38/5 (consistent quality across segments)
 - **Budget phones** (<₹15K) dominate market volume
 - **Strong correlation**: Price vs Spec Score (r=0.6), Price vs RAM (r=0.5)
-- **Top brands**: Samsung, Xiaomi, OnePlus lead market
+- **Top brands**: Samsung, Xiaomi, OnePlus seem to lead the market
 
 ### Technical Specifications
 - **RAM**: 1-24GB (8-12GB most common)
